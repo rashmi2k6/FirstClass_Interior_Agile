@@ -39,7 +39,7 @@ window.addEventListener("load", async () => {
       card = createCard(
         data[i.toString()][0],
         data[i.toString()][1],
-        `/images/designs/${i}.jpg`
+        /images/designs/${i}.jpg`
       );
       if (i === 2 || i === 5 || i === 8 || i === 11) {
         card.style =
